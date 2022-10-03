@@ -1,6 +1,6 @@
 
 const h = [
-    "url1",
+    "https://erikrex007yimmy.github.io/RImg/meme/imgs/skeleton-dancing.gif"
 ]
 
 random_number = Math.floor(Math.random() * h.length);
