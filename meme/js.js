@@ -1,5 +1,5 @@
 
-const h = [
+const urls = [
     "https://erikrex007yimmy.github.io/RImg/meme/imgs/skeleton-dancing.gif",
     "https://erikrex007yimmy.github.io/RImg/meme/imgs/cuddle.gif",
     "https://erikrex007yimmy.github.io/RImg/meme/imgs/cute-baby-mochi.gif",
@@ -15,6 +15,6 @@ const h = [
 
 random_number = Math.floor(Math.random() * h.length);
 
-output = h[random_number];
+output = urls[random_number];
 
 document.getElementById("p1").innerHTML = output;
