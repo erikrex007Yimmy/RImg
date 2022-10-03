@@ -13,7 +13,7 @@ const urls = [
     "https://erikrex007yimmy.github.io/RImg/meme/imgs/the-simpsons-pathetic.gif"
 ]
 
-random_number = Math.floor(Math.random() * h.length);
+random_number = Math.floor(Math.random() * urls.length);
 
 output = urls[random_number];
 
