@@ -1,12 +1,10 @@
 
-var h = [
+const h = [
     "url1",
-    "url2",
-    "url3"
 ]
 
-var num = Math.random(1,h.length)
+random_number = Math.floor(Math.random() * h.length);
 
-console.log(num);
+output = h[random_number];
 
-document.getElementById("p1").innerHTML = "";
+document.getElementById("p1").innerHTML = output;
