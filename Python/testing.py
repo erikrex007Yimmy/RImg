@@ -4,4 +4,4 @@ with urlopen( 'https://erikrex007yimmy.github.io/RImg/meme/meme_api.html' ) as w
     content = webpage.read().decode()
     if "https://erikrex007yimmy.github.io/RImg/meme" in content:
         print("true")
-
+        
